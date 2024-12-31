@@ -8,7 +8,7 @@ public class Classe {
     public Classe(int id, String nom, int effectif) {
         this.id = id;
         setNom(nom);
-        this.effectif = 0;
+
         this.effectif = effectif;
     }
     public Classe(){};
