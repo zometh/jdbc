@@ -10,7 +10,7 @@ public class DB {
     public Connection getConnection(){
         String dbURL = "jdbc:postgresql://localhost/gestion_etudiants_db";
         String user = "postgres";
-        String pass = "Zometh12@";
+        String pass = "your-password";
         try{
             this.cnx = DriverManager.getConnection(dbURL, user, pass);
             System.out.println("Connected");
